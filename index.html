@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bigdiv{
+            display:flex;
+            height:100vh;
+            justify-content: center;
+            align-items: center;
+            gap:100px
+
+        }
+
+
+       
+
+        .sides{
+            width:150px;
+            height:80px;
+            background-color: bisque;
+            text-align: center;
+            padding-top:50px;
+            border-radius: 10px;
+
+
+
+        }
+        .container{
+            display:grid;
+            grid-template-columns: 1fr 1fr 1fr ;
+            gap:20px;
+            margin-top:500px
+           
+        }
+        .middle{
+            height:150px;
+            width:50px;
+            background-color: aqua;
+            font-size:22px;
+            text-align: center;
+            padding-top: 60px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="bigdiv">
+    <div class="sides">Left</div>
+        <div class="container">
+    <div class="middle">1</div>
+    <div class="middle">2</div>
+    <div class="middle">3</div>
+    <div class="middle">4</div>
+    <div class="middle">5</div>
+    <div class="middle">6</div>    
+</div>
+    <div class="sides">Right</div>
+    </div>
+</body>
+</html>
